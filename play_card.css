@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.container {
+    margin-top: 50px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+.card-inputs input {
+    width: 50px;
+    padding: 5px;
+    margin: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin: 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #218838;
+}
+
+.sum-display {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.sum-display h2 {
+    margin: 0;
+}
+
+.sum-display span {
+    font-weight: bold;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Cards</title>
+    <link rel="stylesheet" href="play_card.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Play Cards</h1>
+        <div class="card-inputs">
+            <input type="number" id="card1" min="1" max="13" placeholder="5">
+            <input type="number" id="card2" min="1" max="13" placeholder="7">
+            <input type="number" id="card3" min="1" max="13" placeholder="6">
+            <input type="number" id="card4" min="1" max="13" placeholder="9">
+            <input type="number" id="card5" min="1" max="13" placeholder="9">
+        </div>
+        <div class="buttons">
+            <button  id="selectcards">Select Cards</button>
+            <button  id="sortcards">Sort</button>
+        </div>
+        <div class="sum-display">
+            <h2>SUM: <span id="sumValue">0</span></h2>
+        </div>
+    </div>
+
+    <script src="play_card.js"></script>
+</body>
+</html>

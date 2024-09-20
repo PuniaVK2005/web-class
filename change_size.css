@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+.image {
+    width: 150px;
+    transition: width 0.5s ease;
+    cursor: pointer;
+}
+
+#image1.small, #image2.small {
+    width: 100px;
+}
+
+#image1.large, #image2.large {
+    width: 200px;
+}
